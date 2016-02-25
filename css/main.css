@@ -1,0 +1,251 @@
+/* Inserta tu codigo aqui */
+body{
+    width:100%;
+    margin: 0;
+    background: #2D2735;
+
+    
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+
+ }
+header{
+    background: #1C1821;
+    background-attachment: fixed;
+    height: 80px;
+    width:100%;
+}
+.logo{
+    width:80%;
+    height:65%;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 10px;
+    font-family: "Italic";
+    font-weight: bold;
+    color:white;
+}
+.menu{
+    margin-top: 2%;
+    float:right;
+    right:28px:;
+}
+.menu a{
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+ul li {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+}
+/* seccion 2*/
+.bg-flower{
+    background: url(../image/header-image.jpg)no-repeat;
+    background-size: cover;
+    padding: 12% 0;
+    margin:5% 0;
+}
+    
+.came{
+    background:#1C1821;
+    width:60%;
+    margin: auto;
+    text-align: center;
+    padding: 2% 0;
+}
+.titulo{
+    color:#F6BA6A;
+    font-family: "Courgette";
+    font-size: 85px;
+    padding-bottom: 3%;
+}
+span{
+    color:white;
+    margin: 0px 8px 0px 8px;
+}
+.info{
+    font-size: 15px;
+    font-family: "Open Sans";
+    
+}
+/* seccion 3*/
+
+.flower{
+    background:#1C1821;
+    margin-bottom: 10%;
+}
+.flower img {
+    width:100%;
+}
+.flower h2{
+    color:#DDA760;
+    padding: 3%;
+    font-family:"Courgette";
+    text-align: center;
+}
+.flower p{
+    color:white;
+    font-style:"Italic";
+    text-align: center;
+    font-family: 'Open Sans';
+    padding-bottom: 6%;
+} 
+
+.purpleflower{
+    background:#1C1821;
+    color:white;
+    font-family: 'Open Sans';
+    text-align: center;
+    margin-bottom: 8%;
+}
+.purplelirios h2{
+    padding: 3%;
+}
+.rose{
+    width:100%;
+}
+.geen{
+    font-size: 17px;
+    padding:2% 3% 3% 3%;
+    text-align: justify;
+}
+.text{
+    color:#DDA760;
+    padding-top: 2%;
+    font-family:"Courgette";
+}
+
+.rule{
+    padding: 2% 4%;
+    font-size: 17px;
+    text-align: justify;
+}
+/*Search*/
+.boton{
+    background: #1C1821;
+    padding: 7%;
+    width: 100%;
+    border-radius: 5px;
+}
+.boton input{
+    padding: 5% 7%;
+    background: #2D2735;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+.about{
+    background: #1C1821;
+    margin-top: 10%;
+    padding-bottom:2%;
+    color: white;
+}
+.about h2{
+    color:#DDA760;
+    padding-top: 2%;
+    font-family:"Courgette";
+    text-align: center;
+
+}
+.about p{
+    color:white;
+    font-family: 'Open Sans';
+}
+.about img{
+    width: 100%;
+}
+.nombre{
+    font-weight: bold;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.descrip {
+    text-align: justify;
+    padding: 4% 5% ;
+}
+.icon{
+    padding: 3% ;
+    background: #2D2735;
+    border-radius: 50%;
+    display: inline-block;
+    margin:3px;
+}
+.redesocial{
+    padding: 5%;
+}
+footer{
+    background: #1C1821;
+    padding: 2% 0%;
+}
+.all{
+    color:white;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+
+.flower{
+    margin-bottom:30px;
+    transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.flower:hover{
+    transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width : 920px) {
+    .container{
+        width: 100%;
+
+    }
+    .col-4{
+        width: 100%
+    }
+    .col-8{
+        width: 100%;
+    }
+    .chica{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+
+    }
+    .col-4{
+        width: 100%
+    }
+    .col-8{
+        width: 100%;
+    }
+    .chica{
+        display: none;
+    }
+
+}
+
